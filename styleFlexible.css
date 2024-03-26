@@ -1,0 +1,243 @@
+@media(max-width:800px){
+  header .container{
+    padding:0 25px;
+  }
+  header{
+    padding:12px 0;
+  }
+  .switch-info{
+    padding:4px 8px;
+    top:20%;
+    left:-175px;
+  }
+  .intro-test,.user-information,.tests-section,.test-result{
+    height: calc(100vh - 191px);
+  }
+  .intro-test h2{
+    width:40%;
+  }
+  .intro-test h1{
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .user-information .intro-test_text{
+    font-size:30px;
+  }
+  .error-info{
+    width:300px;
+  }
+  .number-info{
+    width: 100%;
+  }
+  .number-input{
+    width: 100% !important;
+  }
+  .question{
+    font-size: 20px;
+    margin:10px 0;
+    width:95%;
+    line-height: 22px;
+  }
+  .question p{
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .answer-block div p{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .circle{
+    width:20px;
+    height: 20px;
+  }
+  .tests-section .motiv-header_test{
+    font-size: 35px;
+    padding-top:20px !important;
+  }
+  .questions-section{
+    width:100%;
+    padding:25% 0;
+  }
+  .question-flex p{
+    line-height: 42px;
+    font-size: 20px;
+  }
+  .next-question{
+    width: 80%;
+    font-size: 20px;
+    line-height: 25px;
+    margin-top:20px;
+  }
+  .result-in_index .percentage{
+    left:42%;
+  }
+  .about-level{
+    font-size: 30px;
+  }
+  footer{
+    padding:8px 0;
+  }
+  main{
+    height: calc(100vh - 191px);
+  }
+  .none-selected,.none-selected-lastQ,.add-up,.next-question{
+    width: 50%;
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 20px;
+  }
+  .answer{
+    width: 48%;
+    margin: 12px auto;
+  }
+  .tests-section{
+    justify-content: space-around;
+  }
+}
+@media(max-width:550px){
+  .intro-test h2{
+    width: 50%;
+  }
+  .question-block{
+    width:95%;
+  }
+  .answer-block div p{
+    font-size: 17px;
+  }
+  .question-flex p{
+    margin:0px 10px 0 5px;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  .question{
+    font-size: 22px;
+    margin:10px 0;
+    width:95%;
+    line-height: 22px;
+  }
+  .none-selected,.none-selected-lastQ,.add-up,.next-question{
+    width: 40%;
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 20px;
+  }
+  .tests-section{
+    justify-content: space-around;
+  }
+  .answer{
+    width: 48%;
+    margin: 12px auto;
+  }
+}
+@media(max-width:395px){
+  .tests-section .motiv-header_test{
+    font-size: 25px;
+    padding-top: 10px !important;
+    line-height: 35px;
+  } 
+  header .logo h1{
+    font-size:25px;
+    line-height: 46px;
+  }
+  header{
+    padding:15px 0;
+  }
+  header .container{
+    padding:0 25px;
+  }
+  .intro-test h2{
+    width:80%;
+    font-size:23px;
+    line-height: 26px;
+    margin-top:0;
+  }
+  .intro-test h1{
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .user-information .intro-test_text{
+    font-size:30px;
+    margin: 0 auto 10px auto;
+    width: max-content;
+  }
+  #user-info{
+    width: 330px;
+  }
+  #user-info input{
+    width:100%;
+  }
+  .error-info{
+    width:300px;
+  }
+  .number-info{
+    width: 100%;
+  }
+  .number-input{
+    width: 100% !important;
+  }
+  .question{
+    font-size: 18px;
+    margin:10px 0;
+    width:95%;
+    line-height: 22px;
+  }
+  .question p{
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .question-block{
+    width:95%;
+  }
+  .question-flex p{
+    margin:0px 10px 0 5px;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  .answer-block div p{
+    font-size: 12px;
+    line-height: 20px;
+    margin-left:5px;
+  }
+  .circle{
+    width:20px;
+    height: 20px;
+    margin-left:0 !important;
+  }
+  .tests-section .motiv-header_test{
+    font-size: 35px;
+    padding-top:20px !important;
+  }
+  .answer-block div{
+    margin:10px auto;
+    width: 45%;
+    padding: 13px 8px;
+  }
+  .next-question{
+    width: 80%;
+    font-size: 20px;
+    line-height: 25px;
+    margin-top:20px;
+  }
+  .result-in_index .percentage{
+    left:42%;
+  }
+  .about-level{
+    font-size: 30px;
+  }
+  footer{
+    padding:8px 0;
+  }
+  main{
+    height: calc(100vh - 197px);
+  }
+  .tests-section{
+    height: calc(100vh - 197px);
+    justify-content: space-between;
+  }
+  .none-selected,.none-selected-lastQ,.add-up{
+    width: 80%;
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 20px;
+  }
+}
